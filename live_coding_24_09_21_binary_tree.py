@@ -32,7 +32,7 @@ class Tree:
         self._print_the_tree(self.root)
 
 
-# separation for recursion
+    # separation for recursion
     def _print_the_tree(self, current_node):
         print(current_node.value)
 
